@@ -1,0 +1,93 @@
+/*
+ACLARACIÓN: La mayoría de las fuentes propuestas en figma son de pago,
+por ello las he sustituido por fuentes similares
+*/
+
+/*
+GTF Chapter (en sustitución a Cormorant Garamond)
+Uso: logo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+/*
+Mackay Bold (en sustitución a DM Serif Display)
+Uso: titulares largos
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+/*
+Harriet Text (en sustitución a Libre Baskerville)
+Uso: cuerpo del texto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+/*
+Basis Grotesque Pro (en sustitución a Inter)
+Uso: elementos de la interfaz, algunos subtítulos y parte del texto principal
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/*
+Nokia Cellphone FC
+Uso: "algunos elementos lúdicos en algún momento, tal vez"
+*/
+@font-face {
+    font-family: 'Nokia Cellphone FC';
+    src: url('./fonts/nokiafc22.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    margin: 0;
+    border:0;
+    padding: 0;
+}
+
+.cabecera {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding: 1rem 2rem;
+}
+
+.cabecera-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+
+.titulo {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.UI {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.nokia {
+    font-family: 'Nokia Cellphone FC', monospace;
+}
